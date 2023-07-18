@@ -2,5 +2,5 @@
 '''Python function that lists all documents in a collection'''
 
 def list_all(mongo_collection):
-    ''''Lists all documets in a collection'''
+    '''Lists all documets in a collection'''
     return [doc for doc in a mongo_collection.find()]
